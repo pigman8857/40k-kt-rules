@@ -57,6 +57,18 @@ The agent:
 - Domain allowlist is hard-coded to `wahapedia.ru` and `ktdash.app` only; all other URLs are blocked
 - Thinking (`adaptive`) is enabled; tool-use agentic loop runs until Claude returns `end_turn`
 
+## Project-Local Claude Code Skill
+
+A `/kill-team` skill is available inside this project session only. Invoke it to ask rules questions directly in Claude Code without leaving the editor:
+
+```
+/kill-team can I shoot through a window while in cover?
+```
+
+The skill reads both knowledge base markdown files and answers with precise rule citations. Faction-specific questions (operative datasheets, faction ploys) are out of scope — it will direct those to wahapedia.ru.
+
+Skill file: `.claude/skills/kill-team.md`
+
 ## Source Files
 
 | File | Purpose |
@@ -65,3 +77,4 @@ The agent:
 | `targeting_quick_reference.md` | Decision checklists and matrices for shoot/fight legality and terrain effects |
 | `make_pdfs.py` | PDF generator — edit this to change layout, colours, or add documents |
 | `kill_team_agent.py` | Interactive CLI expert agent with web fetch tools |
+| `.claude/skills/kill-team.md` | Project-local Claude Code skill — invoke with `/kill-team` |
