@@ -114,8 +114,10 @@ This is the core of most confusion. Each terrain type has different effects on *
 | **Exposed** | ❌ No | ❌ **Never** | ❌ No | Ladders, grates, feet of terrain — never counts as intervening |
 | **Wall** | ✅ **Yes — fully** | ✅ Yes | ✅ Yes | Solid walls; LoS and movement blocked completely |
 | **Insignificant** | ❌ No | ❌ No | ❌ No | Ignored for movement height; operatives move over freely |
-| **Accessible** | ❌ No | ✅ Yes | Depends on type | Can move through but costs extra 1" |
+| **Accessible** | ❌ No | ✅ Yes | Depends on type | Can move through but costs extra 1"; only base centre needs to pass through |
 | **Blocking** (gaps) | ✅ Yes (gap only) | ✅ Yes | ✅ Yes | Gaps/undersides that LoS cannot pass through |
+| **Vantage** | ❌ No | ✅ Yes | Depends | Upper levels — shooter gains Accurate 1 or 2 against lower Engage targets |
+| **Ceiling** | ❌ No | ✅ Yes | Depends | Small-based operatives (≤50mm round, 60×35mm oval) can move underneath regardless of height |
 
 > *Heavy terrain does NOT block line of sight on its own — it causes **Obscured** instead. LoS can still be drawn through it; the target just gets the obscured penalty.
 
@@ -182,6 +184,62 @@ Kill Team measures **horizontal distance only** — height doesn't count toward 
 | Enemy is on a **vantage point** (terrain >2" high) | They can jump down up to 4" horizontally; you can shoot them normally if LoS exists |
 | Cover when on **different levels** | Cover still applies — if there's intervening terrain within the target's control range (even a railing or ledge edge), they may be in cover |
 | Obscured when on **different levels** | Heavy terrain must be between you and the target along the targeting line — height changes the angle of that line |
+
+---
+
+## PART 5d — VANTAGE TERRAIN SHOOTING RULES
+
+**Vantage terrain** is the upper level of a killzone — a surface above the killzone floor that operatives can be placed upon.
+
+Being on Vantage terrain grants **Accurate** bonuses when shooting Engage-order targets below you:
+
+| Height Difference | Bonus |
+|---|---|
+| Target is **2" or more** lower | **Accurate 1** — retain 1 attack die as a free normal success (no roll needed) |
+| Target is **4" or more** lower | **Accurate 2** — retain 2 attack dice as free normal successes (no roll needed) |
+
+**Cover interaction with Vantage:**
+
+| Situation | Cover Rule |
+|---|---|
+| You're on Vantage, target has **Conceal** order and is **2"+ lower** | Target **cannot use Light terrain for cover** (still retains any improved Save stat) |
+| You're on Vantage, target has **Engage** order | Normal cover rules apply |
+| **Obscured** with Vantage terrain | Ignore Heavy terrain **connected to the Vantage terrain** that both you and your target occupy simultaneously |
+
+> **Vantage is powerful but limited:** The Accurate bonus only applies against Engage-order targets. Conceal targets on the ground lose their Light terrain cover but retain Engage-order cover against your shots — they just can't use Light terrain specifically.
+
+---
+
+## PART 5e — KILLZONE-SPECIFIC TARGETING RULES
+
+Different killzones add special targeting restrictions. Check which applies to your game:
+
+### Close Quarters (Gallowdark Killzone)
+
+Weapons with **Blast**, **Torrent**, or distance-based **Devastating** also gain **Lethal 5+** in this killzone. This means 5s AND 6s count as critical successes on attack dice — not just 6s.
+
+| Weapon Keyword | Extra Rule in Gallowdark |
+|---|---|
+| **Blast x** | Also gains Lethal 5+ |
+| **Torrent x** | Also gains Lethal 5+ |
+| **Devastating x"** | Also gains Lethal 5+ |
+
+### Fortified Positions (Compound Siege Killzone)
+
+| Situation | Targeting Rule |
+|---|---|
+| Shooting **through a fortified window** | Defender ignores **Piercing** weapon rule entirely |
+| Blast/Torrent with fortified position | Secondary targets must be on the **same side** as the primary target |
+| Devastating weapon with fortified position | Bonus damage only applies to operatives on the **same side** as the primary target |
+| Fighting across a fortified window | **Defender resolves dice first** (reversed from normal) |
+| Drawing LoS **over** a bunker/stockade | Requires shooter to be **2" higher** in elevation than the fortification Heavy terrain |
+
+### Bheta-Decima Hazardous Areas
+
+| Situation | Targeting Rule |
+|---|---|
+| Two operatives **on the floor**, 4"+ of Hazardous Area between them | Not a valid target — **cannot shoot** |
+| Operative on **Vantage**, targeting floor operative with gantry footprint between them | Not a valid target — **cannot shoot** (unless shooter or target is on that gantry) |
 
 ---
 
