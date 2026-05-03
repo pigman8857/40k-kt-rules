@@ -589,5 +589,11 @@ build_pdf(
     'Kill Team Targeting Quick Reference',
 )
 
-print('\nDone. Both PDFs written to:')
+build_pdf(
+    f'{BASE}/tac_ops_reference.md',
+    f'{BASE}/tac_ops_reference.pdf',
+    'Kill Team Tac Ops Reference',
+)
+
+print('\nDone. All PDFs written to:')
 print(f'  {BASE}/')

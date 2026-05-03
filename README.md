@@ -12,8 +12,10 @@ The AI assistant that serves players is **not implemented here**. This project's
 |---|---|
 | `kill_team_core_rules_guide.md` | Full core rules: phases, actions, shooting, fighting, melee, weapons, equipment |
 | `targeting_quick_reference.md` | Decision checklists and matrices for shoot/fight legality and terrain effects |
+| `tac_ops_reference.md` | All 24 universal Tac Ops cards across four archetypes with full scoring conditions |
 | `kill_team_core_rules_guide.pdf` | Styled A4 PDF of the core rules guide |
 | `targeting_quick_reference.pdf` | Styled A4 PDF of the targeting reference |
+| `tac_ops_reference.pdf` | Styled A4 PDF of the Tac Ops reference |
 | `make_pdfs.py` | Renders the markdown files into PDFs (grimdark parchment aesthetic) |
 | `kill_team_agent.py` | Kill Team expert agent — used to validate and extend the knowledge base |
 

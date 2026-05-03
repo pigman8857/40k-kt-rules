@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Project Is
 
-A Kill Team 3rd Edition rules reference project. Two markdown files contain human-readable rules guides; `make_pdfs.py` renders them into styled A4 PDFs with a grimdark parchment aesthetic. Rules content is sourced from Wahapedia (Core Book, February 2026).
+A Kill Team 3rd Edition rules reference project. Three markdown files contain human-readable rules guides; `make_pdfs.py` renders them into styled A4 PDFs with a grimdark parchment aesthetic. Rules content is sourced from Wahapedia (Core Book, February 2026).
 
 ## Regenerating the PDFs
 
@@ -75,6 +75,7 @@ Skill file: `.claude/skills/kill-team.md`
 |---|---|
 | `kill_team_core_rules_guide.md` | Full core rules: phases, actions, shooting, fighting, weapons, equipment |
 | `targeting_quick_reference.md` | Decision checklists and matrices for shoot/fight legality and terrain effects |
+| `tac_ops_reference.md` | All 24 universal Tac Ops cards across four archetypes with full scoring conditions |
 | `make_pdfs.py` | PDF generator — edit this to change layout, colours, or add documents |
 | `kill_team_agent.py` | Interactive CLI expert agent with web fetch tools |
 | `.claude/skills/kill-team.md` | Project-local Claude Code skill — invoke with `/kill-team` |
