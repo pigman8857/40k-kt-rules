@@ -575,7 +575,7 @@ def build_pdf(md_path, pdf_path, doc_title):
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
-BASE = '/home/somkamolv/Documents/killteams_rules'
+BASE = '/home/somkamolv/Documents/Dev/40k-kt-rules'
 
 build_pdf(
     f'{BASE}/kill_team_core_rules_guide.md',
