@@ -76,6 +76,7 @@ Skill file: `.claude/skills/kill-team.md`
 | `kill_team_core_rules_guide.md` | Full core rules: phases, actions, shooting, fighting, weapons, equipment |
 | `targeting_quick_reference.md` | Decision checklists and matrices for shoot/fight legality and terrain effects |
 | `tac_ops_reference.md` | All 24 universal Tac Ops cards across four archetypes with full scoring conditions |
+| `wahapedia_links.md` | Verified wahapedia URL index — jump directly to source pages; tracks what is/isn't captured yet |
 | `make_pdfs.py` | PDF generator — edit this to change layout, colours, or add documents |
 | `kill_team_agent.py` | Interactive CLI expert agent with web fetch tools |
 | `.claude/skills/kill-team.md` | Project-local Claude Code skill — invoke with `/kill-team` |
