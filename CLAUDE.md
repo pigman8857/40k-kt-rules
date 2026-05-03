@@ -80,3 +80,4 @@ Skill file: `.claude/skills/kill-team.md`
 | `make_pdfs.py` | PDF generator — edit this to change layout, colours, or add documents |
 | `kill_team_agent.py` | Interactive CLI expert agent with web fetch tools |
 | `.claude/skills/kill-team.md` | Project-local Claude Code skill — invoke with `/kill-team` |
+| `USAGE.md` | End-user manual for the skill and the CLI agent |

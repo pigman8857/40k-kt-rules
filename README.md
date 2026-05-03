@@ -19,6 +19,7 @@ The AI assistant that serves players is **not implemented here**. This project's
 | `tac_ops_reference.pdf` | Styled A4 PDF of the Tac Ops reference |
 | `make_pdfs.py` | Renders the markdown files into PDFs (grimdark parchment aesthetic) |
 | `kill_team_agent.py` | Kill Team expert agent — used to validate and extend the knowledge base |
+| `USAGE.md` | How to use the `/kill-team` skill and the CLI agent |
 
 Rules content is sourced from Wahapedia (Core Book, February 2026).
 
